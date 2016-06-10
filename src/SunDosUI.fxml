@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <TitledPane animated="false" prefHeight="500.0" prefWidth="600.0" text="SunDos">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="carregar_comandes" layoutY="2.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="91.0" text="Refresca Llista" />
+                  <ListView fx:id="llista_comandes" layoutY="32.0" onMouseClicked="#canviar_estat" prefHeight="445.0" prefWidth="600.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+   </children>
+</AnchorPane>
